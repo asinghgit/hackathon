@@ -5,7 +5,11 @@ pool:
   vmImage: ubuntu-latest
 
 stages:
-- stage:
+- stage: FirstStage
   displayName: "First stage"
-  steps:
-- script: echo "Hello from Azure DevOps"
+  jobs:
+  - job: FirstJob
+    displayName: "First job"
+    steps:
+    - script: echo "Hello from Azure DevOps"
+      displayName: "Echo hello"

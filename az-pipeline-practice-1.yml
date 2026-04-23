@@ -6,10 +6,10 @@ pool:
 
 stages:
 - stage: FirstStage
-  displayName: "First stage"
+  displayName: "First stage1111"
   jobs:
   - job: FirstJob
-    displayName: "First job"
+    displayName: "First job111"
     steps:
     - script: echo "Hello from Azure DevOps"
       displayName: "Echo Hello"

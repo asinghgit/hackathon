@@ -8,5 +8,4 @@ stages:
 - stage:
   displayName: "First stage"
   steps:
-    - task:
-      displayName: "first task"
+- script: echo "Hello from Azure DevOps"

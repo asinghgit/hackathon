@@ -1,0 +1,5 @@
+trigger:
+- new-branch
+
+pool:
+  vmImage: ubuntu-latest

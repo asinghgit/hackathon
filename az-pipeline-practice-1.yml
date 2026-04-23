@@ -8,5 +8,5 @@ stages:
 - stage:
   displayName: "First stage"
   steps:
-    - task
+    - task:
       displayName: "first task"
